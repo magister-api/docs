@@ -49,7 +49,7 @@ All of the configuration variables defined will be loaded into the $_ENV PHP sup
 
 .. code-block:: php
 
-	'secure' => env('MAGISTER_SESSION_SECURE_COOKIE', false),
+	'key' => env('MAGISTER_ENCRYPTION_KEY', null),
 
 The second value passed to the env function is the "default value". This value will be used if no environment variable exists for the given key.
 
