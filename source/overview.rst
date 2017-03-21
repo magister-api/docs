@@ -48,6 +48,29 @@ After installing, you need to require Composer's autoloader:
 You can find out more on how to install Composer, configure autoloading, and other best-practices for defining dependencies at `getcomposer.org <http://getcomposer.org>`_.
 
 
+Configuration
+=============
+
+Configuration Files
+-------------------
+
+All of the configuration files for the Magister 6 API are stored in the config directory. Feel free to look through the files and get familiar with the options available to you.
+
+Encryption Key
+--------------
+
+The next thing you should do after installing the Magister 6 API is set your encryption key to a random string. 
+
+Typically, this string should be 32 characters long. The key can be set in the .env environment file. The Magister 6 API ships with a function to generate a secure encryption key. Use the following function to generate a 32 characters long secure encryption key:
+
+.. code-block:: php
+
+	str_random(32);
+
+For more information on how to set the encryption key in your environment, visit the :doc:`configuration section </configuration>`_ of the documentation.
+
+**If the encryption key is not set, your user sessions and other encrypted data will not be secure!**
+
 License
 =======
 
