@@ -25,7 +25,7 @@ You can add the Magister 6 API as a dependency using the Composer CLI:
 
 .. code-block:: bash
 
-	composer require stanvk/magister-api ~2.0
+	php composer.phar require stanvk/magister-api:~2.0
 
 Alternatively, you can specify the Magister 6 API as a dependency in your project's existing composer.json file:
 
@@ -36,6 +36,8 @@ Alternatively, you can specify the Magister 6 API as a dependency in your projec
 	      "stanvk/magister": "~2.0"
 	   }
 	}
+
+Make sure you run the Composer install command after modifying your composer.json file in order to update your vendor folder.
 
 After installing, you need to require Composer's autoloader:
 
