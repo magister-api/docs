@@ -24,8 +24,7 @@ You need to instantiate the Dotenv class before creating a Magister instance:
 
 .. code-block:: php
 
-    $dotenv = new Dotenv\Dotenv(__DIR__);
-    $dotenv->load();
+    (new Dotenv\Dotenv(__DIR__))->load();
 
     $magister = new Magister\Magister(...);
 
