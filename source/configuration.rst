@@ -47,7 +47,7 @@ This will set the environment variable ``FOO`` to the value ``BAR``. This does t
 Retrieving Environment Configuration
 ------------------------------------
 
-All of the configuration variables defined will be loaded into the ``$_ENV`` PHP super-global when your application receives a request. The Magister 6 API uses an ``env`` helper to retrieve values from these variables in the configuration files. 
+All of the configuration variables defined will be loaded into the ``$_ENV`` PHP super-global when your application receives a request. The Magister 6 API uses an ``env`` helper to retrieve the values from these variables in the configuration files. 
 
 .. code-block:: php
 
