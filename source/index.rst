@@ -13,10 +13,10 @@ Please note that we are not affiliated with SchoolMaster's Magister in any way.
 	// Instantiate the Magister object.
 	new Magister\Magister($school, $username, $password);
 
-    // Loop through all grades.
-	foreach (Magister\Models\Grade\Grade::all() as $grade) {
-		// Display the grade.
-		echo $grade->CijferStr;
+    // Display today's appointments.
+	foreach (Magister\Models\Appointment::today() as $appointment) {
+		// Display the description of the appointment.
+		echo $appointment->Omschrijving;
 	}
 
 User Guide
