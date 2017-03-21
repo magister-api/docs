@@ -7,17 +7,17 @@ Please note that we are not affiliated with SchoolMaster's Magister in any way.
 
 .. code-block:: php
 
-	// Set the encryption key.
-	putenv("MAGISTER_ENCRYPTION_KEY=$key");
+    // Set the encryption key.
+    putenv("MAGISTER_ENCRYPTION_KEY=$key");
 
-	// Instantiate the Magister object.
-	new Magister\Magister($school, $username, $password);
+    // Instantiate the Magister object.
+    new Magister\Magister($school, $username, $password);
 
-	// Display today's appointments.
-	foreach (Magister\Models\Appointment::today() as $appointment) {
-		// Display the description of the appointment.
-		echo $appointment->Omschrijving;
-	}
+    // Display today's appointments.
+    foreach (Magister\Models\Appointment::today() as $appointment) {
+        // Display the description of the appointment.
+        echo $appointment->Omschrijving;
+    }
 
 User Guide
 ==========

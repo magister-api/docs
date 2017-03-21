@@ -24,8 +24,8 @@ You need to instantiate the Dotenv class before creating a Magister instance. If
 
 .. code-block:: php
 
-	$dotenv = new Dotenv\Dotenv(__DIR__);
-	$dotenv->load();
+    $dotenv = new Dotenv\Dotenv(__DIR__);
+    $dotenv->load();
 
 For more information on how to use phpdotenv, visit their `GitHub <https://github.com/vlucas/phpdotenv>`_ page. 
 
@@ -37,7 +37,7 @@ Although the DotEnv PHP library is our preferred way of doing this, it is also p
 
 .. code-block:: php
 
-	putenv("FOO=BAR");
+    putenv("FOO=BAR");
 
 This will set the environment variable FOO to the value BAR. This does the exact same as the phpdotenv package, although instead of in a .env file, the environment variables are defined directly in your code. If you need to define multiple environment variables in your code, you can see how this will get sloppy.
 
@@ -49,7 +49,7 @@ All of the configuration variables defined will be loaded into the $_ENV PHP sup
 
 .. code-block:: php
 
-	'key' => env('MAGISTER_ENCRYPTION_KEY', null),
+    'key' => env('MAGISTER_ENCRYPTION_KEY', null),
 
 The second value passed to the env function is the "default value". This value will be used if no environment variable exists for the given key.
 

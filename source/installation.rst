@@ -25,17 +25,17 @@ You can add the Magister 6 API as a dependency using the Composer CLI:
 
 .. code-block:: bash
 
-	php composer.phar require stanvk/magister:~2.0
+    php composer.phar require stanvk/magister:~2.0
 
 Alternatively, you can specify the Magister 6 API as a dependency in your project's existing composer.json file:
 
 .. code-block:: js
 
-	{
-	   "require": {
-	      "stanvk/magister": "~2.0"
-	   }
-	}
+    {
+       "require": {
+          "stanvk/magister": "~2.0"
+       }
+    }
 
 Make sure you run the Composer install command after modifying your composer.json file in order to update your vendor directory.
 
@@ -43,7 +43,7 @@ After installing, you need to require Composer's autoloader:
 
 .. code-block:: php
 
-	require 'vendor/autoload.php';
+    require 'vendor/autoload.php';
 
 You can find out more on how to install Composer, configure autoloading, and other best-practices for defining dependencies at `getcomposer.org <http://getcomposer.org>`_.
 
@@ -65,7 +65,7 @@ Typically, this string should be 32 characters long. The key can be set in your 
 
 .. code-block:: php
 
-	str_random(32);
+    str_random(32);
 
 For more information on how to set the encryption key in your environment, visit the :doc:`configuration section </configuration>` of the documentation.
 
