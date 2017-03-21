@@ -11,5 +11,5 @@ User Guide
 .. toctree::
    :maxdepth: 3
    
-   overview
+   installation
    configuration
