@@ -13,7 +13,7 @@ Please note that we are not affiliated with SchoolMaster's Magister in any way.
 	// Instantiate the Magister object.
 	new Magister\Magister($school, $username, $password);
 
-    // Display today's appointments.
+	// Display today's appointments.
 	foreach (Magister\Models\Appointment::today() as $appointment) {
 		// Display the description of the appointment.
 		echo $appointment->Omschrijving;
