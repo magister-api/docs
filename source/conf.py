@@ -20,6 +20,8 @@
 # import sys
 # sys.path.insert(0, os.path.abspath('.'))
 import guzzle_sphinx_theme
+from sphinx.highlighting import lexers
+from pygments.lexers.web import PhpLexer
 
 # -- General configuration ------------------------------------------------
 
@@ -75,6 +77,11 @@ pygments_style = 'sphinx'
 
 # If true, `todo` and `todoList` produce output, else they produce nothing.
 todo_include_todos = False
+
+# Take care of PHP syntax highlighting.
+lexers['php'] = PhpLexer(startinline=True, linenos=1)
+lexers['php-annotations'] = PhpLexer(startinline=True, linenos=1)
+primary_domain = 'php'
 
 
 # -- Options for HTML output ----------------------------------------------
