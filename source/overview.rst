@@ -37,7 +37,7 @@ Alternatively, you can specify the Magister 6 API as a dependency in your projec
 	   }
 	}
 
-Make sure you run the Composer install command after modifying your composer.json file in order to update your vendor folder.
+Make sure you run the Composer install command after modifying your composer.json file in order to update your vendor directory.
 
 After installing, you need to require Composer's autoloader:
 

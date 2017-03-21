@@ -12,3 +12,4 @@ User Guide
    :maxdepth: 3
    
    overview
+   configuration
