@@ -18,7 +18,7 @@ The Magister 6 API stores the configuration in the environment. It is often help
 Using the DotEnv PHP library
 ----------------------------
 
-The DotEnv PHP library by Vance Lucas uses a .env file to load environment variables to the PHP environment. You will need to add this package to your Composer requirements. Once this is done, simply create a ``.env`` file in your root directory and define your configuration options in there. See the `.env.example` file provided by the Magister 6 API for a sample configuration.
+The DotEnv PHP library by Vance Lucas uses a .env file to load environment variables to the PHP environment. You will need to add this package to your Composer requirements. Once this is done, simply create a ``.env`` file in your root directory and define your configuration options in there. See the ``.env.example`` file provided by the Magister 6 API for a sample configuration.
 
 You need to instantiate the Dotenv class before creating a Magister instance:
 
