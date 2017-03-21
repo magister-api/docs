@@ -1,10 +1,7 @@
-.. Magister 6 API documentation master file, created by
-   sphinx-quickstart on Tue Mar 21 12:48:14 2017.
-   You can adapt this file completely to your liking, but it should at least
-   contain the root `toctree` directive.
+Magister 6 API Documentation
+============================
 
-Welcome to Magister 6 API's documentation!
-==========================================
+Welcome to the documentation for our public Magister 6 API. This project aims to provide an easy-to-use and elegant bridge between your website and Magister 6. Please note that we are not affiliated with SchoolMaster's Magister in any way.
 
 .. toctree::
    :maxdepth: 2
