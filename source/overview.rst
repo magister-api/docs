@@ -84,5 +84,5 @@ Guidelines
 2. The Magister 6 API is meant to be lean and fast with very few dependencies. This means
    that not every feature request will be accepted.
 3. The Magister 6 API has a minimum PHP version requirement of PHP 5.4. Pull requests must
-   not require a PHP version greater than PHP 5.5 unless the feature is only
+   not require a PHP version greater than PHP 5.4 unless the feature is only
    utilized conditionally.
