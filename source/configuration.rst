@@ -39,7 +39,7 @@ Although the DotEnv PHP library is our preferred way of doing this, it is also p
 
 	putenv("FOO=BAR");
 
-This will set the environment variable FOO to the value BAR. The phpdotenv package does the exact same, although instead of directly in your code, the environment variables are defined in the .env file. If you need to define multiple environment variables in your code, you can see how this will get sloppy.
+This will set the environment variable FOO to the value BAR. This does the exact same as the phpdotenv package, although instead of in a .env file, the environment variables are defined directly in your code. If you need to define multiple environment variables in your code, you can see how this will get sloppy.
 
 
 Retrieving Environment Configuration
