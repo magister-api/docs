@@ -61,7 +61,7 @@ Encryption Key
 
 The next thing you should do after installing the Magister 6 API is set your encryption key to a random string. 
 
-Typically, this string should be 32 characters long. The key can be set in the .env environment file. The Magister 6 API ships with a function to generate a secure encryption key. Use the following function to generate a 32 characters long secure encryption key:
+Typically, this string should be 32 characters long. The key can be set in your PHP environment. The Magister 6 API ships with a function to generate a secure encryption key. Use the following function to generate a 32 characters long secure encryption key:
 
 .. code-block:: php
 
