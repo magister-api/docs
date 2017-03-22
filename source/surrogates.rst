@@ -24,17 +24,6 @@ Surrogate Class Reference
 
 Below you will find every surrogate and its underlying class. This is a useful tool for quickly digging into the API documentation for a given surrogate root. The service container binding key is also included where applicable.
 
-    =======================  ==================  ===============================
-    base_uri                 URI                 Result
-    =======================  ==================  ===============================
-    ``http://foo.com``       ``/bar``            ``http://foo.com/bar``
-    ``http://foo.com/foo``   ``/bar``            ``http://foo.com/bar``
-    ``http://foo.com/foo``   ``bar``             ``http://foo.com/bar``
-    ``http://foo.com/foo/``  ``bar``             ``http://foo.com/foo/bar``
-    ``http://foo.com``       ``http://baz.com``  ``http://baz.com``
-    ``http://foo.com/?bar``  ``bar``             ``http://foo.com/bar``
-    =======================  ==================  ===============================
-
 =========  ===========================================  =========================
 Surrogate  Class                                        Service Container Binding
 =========  ===========================================  =========================
