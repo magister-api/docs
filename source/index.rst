@@ -28,3 +28,4 @@ User Guide
    installation
    configuration
    surrogates
+   authentication
