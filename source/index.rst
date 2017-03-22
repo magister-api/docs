@@ -27,3 +27,4 @@ User Guide
    
    installation
    configuration
+   surrogates
