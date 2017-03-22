@@ -24,15 +24,15 @@ Surrogate Class Reference
 
 Below you will find every surrogate and its underlying class. This is a useful tool for quickly digging into the API documentation for a given surrogate root. The service container binding key is also included where applicable.
 
-====== =========================================== =========================
-Facade Class                                       Service Container Binding
-====== =========================================== =========================
-App    ``Magister\Magister``                       ``app``
-Auth   ``Magister\Services\Auth\AuthManager``      ``auth``
-Config ``Magister\Services\Config\Repository``     ``config``
-Cookie ``Magister\Services\Cookie\CookieJar``      ``cookie``
-Crypt  ``Magister\Services\Encryption\Encrypter``  ``encrypter``
-Event  ``Magister\Services\Events\Dispatcher``     ``events`` 
-File   ``Magister\Services\Filesystem\Filesystem`` ``files``
-Http   ``GuzzleHttp\Client``                       ``http``
-====== =========================================== =========================
+=========  ===========================================  =========================
+Surrogate  Class                                        Service Container Binding
+=========  ===========================================  =========================
+App        ``Magister\Magister``                        ``app``
+Auth       ``Magister\Services\Auth\AuthManager``       ``auth``
+Config     ``Magister\Services\Config\Repository``      ``config``
+Cookie     ``Magister\Services\Cookie\CookieJar``       ``cookie``
+Crypt      ``Magister\Services\Encryption\Encrypter``   ``encrypter``
+Event      ``Magister\Services\Events\Dispatcher``      ``events`` 
+File       ``Magister\Services\Filesystem\Filesystem``  ``files``
+Http       ``GuzzleHttp\Client``                        ``http``
+=========  ===========================================  =========================
