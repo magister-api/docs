@@ -1,4 +1,6 @@
 # Magister API Documentation
+[![Documentation Status](https://readthedocs.org/projects/magister-api/badge/?version=latest)](https://magister-api.readthedocs.io/en/latest/?badge=latest)
+
 
 Our documentation is built using Sphinx, a tool that makes it easy to create intelligent and beautiful documentation.
 
