@@ -34,7 +34,7 @@ The first grade can be retrieved by doing:
     
 Request parameters
 ------------------
-At some models, the user can specify parameters. This can be done with the :php:`where()` function. For example:
+At some models, the user can specify parameters. This can be done with the ``where()`` function. For example:
 
 .. code-block:: php
     
