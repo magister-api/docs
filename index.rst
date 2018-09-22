@@ -29,3 +29,4 @@ User Guide
    configuration
    surrogates
    authentication
+   models
